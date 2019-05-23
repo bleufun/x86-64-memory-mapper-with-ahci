@@ -1,0 +1,14 @@
+#ifndef __PAGING_HPP
+#define __PAGING_HPP
+
+#define P4_OFFSET 39
+#define P3_OFFSET 30
+#define P2_OFFSET 21
+#define P1_OFFSET 12
+#define P4_ENTRY_MASK (511ULL << P4_OFFSET)
+#define P3_ENTRY_MASK (511ULL << P3_OFFSET)
+#define P2_ENTRY_MASK (511ULL << P2_OFFSET)
+#define P1_ENTRY_MASK (511ULL << P1_OFFSET)
+#define PAGE_OFFSET_MASK 4095
+
+#endif
